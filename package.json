@@ -1,0 +1,21 @@
+{
+  "name": "zeni-contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile --show-stack-traces",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.4.2",
+    "chai": "^4.3.6",
+    "dotenv": "^15.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.3",
+    "solhint": "^3.3.6",
+    "solidity-coverage": "^0.7.18"
+  }
+}
